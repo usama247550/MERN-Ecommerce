@@ -1,0 +1,180 @@
+/* ===== Navbar ===== */
+.navbar {
+  background: #111;
+  color: #fff;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.navbar-logo a {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo a:hover {
+  color: #facc15;
+}
+
+
+
+.navbar-links ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links ul li a {
+  /* color: #bbb; */
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links ul li a:hover {
+  color: #facc15;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search */
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  padding: 6px 35px 6px 10px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  font-size: 14 px;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  font-weight: bolder;
+}
+
+.search-btn:hover {
+  color: #facc15;
+}
+
+/* Cart */
+.cart-container {
+  position: relative;
+}
+
+.cart-icon {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-weight: bolder;
+}
+
+.cart-icon:hover {
+  color: #facc15;
+  font-weight: bolder;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: #f39c12;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* Register */
+.register-link {
+  color: #fff;
+  font-size: 22px;
+  transition: color 0.3s ease;
+}
+
+.register-link:hover {
+  color: #0d6efd;
+}
+
+/* Hamburger */
+.navbar-hamburger {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links.active {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .navbar-icons {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .navbar-hamburger {
+    display: block;
+  }
+  .cart-icon,
+  .register-link,
+  .navbar-hamburger {
+    font-size: 20px;
+  }
+  .search-input {
+    font-size: 12px;
+  }
+}
+

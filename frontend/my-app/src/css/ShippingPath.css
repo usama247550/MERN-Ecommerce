@@ -1,0 +1,76 @@
+.shipping-path-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  margin: 30px 0;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.shipping-path {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.path-icon {
+  font-size: 32px;
+  color: #999;
+  background: #f2f2f2;
+  padding: 5px 12px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.path-name {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  text-transform: capitalize;
+}
+
+.path-line {
+  position: absolute;
+  top:2rem;
+  right: -17rem;
+  width: 293px;
+  height: 4px;
+  background: #ddd;
+  z-index: -1;
+}
+
+.shipping-path.active .path-icon {
+  background: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+}
+
+.shipping-path.active .path-name {
+  color: #4caf50;
+  font-weight: 600;
+}
+
+.shipping-path.active .path-line {
+ background: #4caf50;
+}
+
+@media (max-width: 768px) {
+  .shipping-path-container {
+    gap: 20px;
+  }
+
+  .path-line {
+    right: -45px;
+    width: 45px;
+  }
+
+  .path-icon {
+    font-size: 26px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,292 @@
+.item-cart-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f9fafb;
+  padding: 2rem;
+}
+
+.cart-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.cart-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+/* LEFT SIDE - CART TABLE */
+.cart-table {
+  flex: 3;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+.cart-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.cart-table th {
+  color: #374151;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.cart-table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-info img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.product-details h3 {
+  font-weight: 600;
+  color: #111827;
+}
+
+.product-details p {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.quantity-controls {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.quantity-controls button {
+  background: #e5e7eb;
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.quantity-controls button:hover {
+  background: #d1d5db;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.update-btn,
+.remove-btn {
+  min-width: 90px;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: 0.3s;
+}
+
+.update-btn {
+  background:rgb(76, 73, 73);
+}
+
+
+.update-btn:hover {
+  background: rgb(27, 26, 26);
+}
+
+.remove-btn {
+  background: #dc2626;
+
+}
+.remove-btn:hover {
+  background: #b91c1c;
+}
+
+/* RIGHT SIDE - PRICE SUMMARY */
+.price-summary {
+  flex: 1;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  height: fit-content;
+}
+
+.price-summary h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  color: #374151;
+}
+
+.summary-row.total {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 0.75rem;
+}
+
+.proceed-btn {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  font-weight: 500;
+  padding: 0.6rem 0;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+.proceed-btn:hover {
+  background: #1e40af;
+}
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0;
+}
+
+.empty-cart-link {
+  background: black;
+  min-width: 150px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media (min-width: 992px) {
+  .cart-flex {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .item-cart-container {
+    padding: 1rem;
+  }
+
+  .cart-heading {
+    font-size: 1.5rem;
+  }
+
+  /* TABLE → CARD LAYOUT */
+  .cart-table table,
+  .cart-table thead,
+  .cart-table tbody,
+  .cart-table th,
+  .cart-table td,
+  .cart-table tr {
+    display: block;
+  }
+
+  .cart-table thead {
+    display: none;
+  }
+
+  .cart-table tr {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+
+  .cart-table td {
+    border: none;
+    padding: 0.4rem 0;
+  }
+
+  /* PRODUCT */
+  .product-info {
+    align-items: flex-start;
+  }
+
+  .product-info img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .product-details h3 {
+    font-size: 1rem;
+  }
+
+  /* QUANTITY */
+  .quantity-controls {
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+  }
+
+  /* TOTAL PRICE */
+  .cart-table td strong {
+    font-size: 1rem;
+  }
+
+  /* ACTION BUTTONS */
+  .action-buttons {
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .update-btn,
+  .remove-btn {
+    flex: 1;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+  /* PRICE SUMMARY */
+  .price-summary {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    margin-top: 1rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .proceed-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+}

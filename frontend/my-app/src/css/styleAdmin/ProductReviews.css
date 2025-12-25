@@ -1,0 +1,233 @@
+.apr-container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+}
+
+.apr-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.apr-card {
+  background: #ffffff;
+  border: 1px solid #e6e9ee;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(22, 31, 52, 0.04);
+  margin-bottom: 20px;
+}
+
+.apr-subheading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.apr-table-wrap {
+  overflow-x: auto;
+}
+
+.apr-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+  text-align: left;
+}
+
+.apr-table th,
+.apr-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.apr-table thead th {
+  background: black;
+  color: white;
+  font-weight: 600;
+}
+
+.apr-img-placeholder {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #e0f2fe;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.apr-btn {
+  background: #235ad1;
+
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ .apr-btn:hover {
+  background: #1e40af;
+} 
+
+.apr-btn-danger {
+  background: #ef4444;
+}
+
+.apr-reviews-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+
+.apr-selected-product {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.apr-no-selection,
+.apr-empty {
+  padding: 20px;
+  text-align: center;
+  color: #6b7280;
+}
+.review-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 900px) {
+  .apr-container {
+    padding: 12px;
+  }
+  .apr-heading {
+    font-size: 22px;
+  }
+  .apr-table {
+    min-width: 600px;
+  }
+}
+
+@media (max-width: 640px) {
+  .apr-table {
+    min-width: 520px;
+  }
+  .apr-img-placeholder {
+    width: 36px;
+    height: 36px;
+  }
+  .apr-btn {
+    padding: 6px 10px;
+  }
+}
+
+/* =========================
+   MOBILE RESPONSIVE PRODUCT REVIEWS
+========================= */
+
+@media (max-width: 768px) {
+
+  .apr-container {
+    margin: 20px 10px;
+    padding: 12px;
+  }
+
+  .apr-heading {
+    font-size: 22px;
+  }
+
+  /* TABLE → CARD VIEW */
+  .apr-table,
+  .apr-table thead,
+  .apr-table tbody,
+  .apr-table th,
+  .apr-table td,
+  .apr-table tr {
+    display: block;
+  }
+
+  .apr-table thead {
+    display: none;
+  }
+
+  .apr-table {
+    min-width: 100%;
+  }
+
+  .apr-table tr {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+
+  .apr-table td {
+    border: none;
+    padding: 6px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* LABELS */
+  .apr-table td::before {
+    font-weight: 600;
+    color: #374151;
+  }
+
+  /* PRODUCTS TABLE */
+  .apr-table td:nth-child(1)::before { content: "Sr No"; }
+  .apr-table td:nth-child(2)::before { content: "Product"; }
+  .apr-table td:nth-child(3)::before { content: "Image"; }
+  .apr-table td:nth-child(4)::before { content: "Reviews"; }
+  .apr-table td:nth-child(5)::before { content: "Action"; }
+
+  /* REVIEW TABLE */
+  .apr-selected-product + .apr-table-wrap .apr-table td:nth-child(2)::before {
+    content: "Name";
+  }
+  .apr-selected-product + .apr-table-wrap .apr-table td:nth-child(3)::before {
+    content: "Rating";
+  }
+  .apr-selected-product + .apr-table-wrap .apr-table td:nth-child(4)::before {
+    content: "Comment";
+  }
+  .apr-selected-product + .apr-table-wrap .apr-table td:nth-child(5)::before {
+    content: "Action";
+  }
+
+  .apr-img-placeholder {
+    width: 38px;
+    height: 38px;
+  }
+
+  .review-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .apr-btn {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .apr-btn-danger {
+    padding: 6px 10px;
+  }
+
+  .apr-no-selection,
+  .apr-empty {
+    font-size: 14px;
+  }
+}

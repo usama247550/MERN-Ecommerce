@@ -1,0 +1,254 @@
+.product-detail-container {
+  display: flex;
+  width: 100%;
+  padding: 0rem 3rem;
+  letter-spacing: 1px;
+}
+.product-detail-info {
+  width: 50%;
+  padding: 1rem 0rem;
+}
+.product-detail-heading {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #333;
+  font-weight: bold;
+}
+.product-detail-description {
+  font-size: 0.9rem;
+  color: rgba(77, 74, 74, 0.954);
+}
+.product-detail-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #e63946;
+  margin-top: 0.5rem;
+}
+.product-detail-reviews {
+  font-size: 0.9rem;
+  color: rgba(77, 74, 74, 0.954);
+}
+.product-detail-stock {
+  color: green;
+  margin-top: 0.5em;
+}
+
+.out-of-stock {
+  color: #e63946;
+  margin-top: 1em;
+  font-size: 1.2rem;
+}
+
+label[for="quantity"] {
+  margin-right: 0.5rem;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.product-detail-btn {
+  width: 23px;
+  height: 23px;
+  outline: none;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.product-detail-btn:hover {
+  background-color: rgb(211, 207, 207);
+}
+.product-detail-input {
+  width: 50px;
+  text-align: center;
+  padding: 0.3rem;
+  margin: 0 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  outline: none;
+}
+.product-detail-cart-btn {
+  width: 27rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: #1d3557;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.product-detail-cart-btn:hover {
+  background: #457b9d;
+}
+.review-heading {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+textarea[name="review"] {
+  width: 70%;
+  min-height: 120px;
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 1rem;
+  outline: none;
+}
+.submit-review-btn {
+  width: 8rem;
+  background: #111;
+  color: #f1f1f1;
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 0.3rem;
+}
+
+.submit-review-btn:hover {
+  color: #f1f1f1;
+  background: #2a2929;
+}
+
+.product-detail-image {
+  min-width: 50%;
+  height: 80vh;
+  padding: 2rem 2rem;
+}
+.product-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  display: block;
+  object-fit: contain;
+}
+
+.related-images-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  gap: 15px;
+}
+
+.related-images {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.reviews-container {
+  margin: 2rem 0;
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+.user {
+  margin: 1.7rem 0;
+  border-bottom: 1px solid lightgray;
+}
+.user h5 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.costomer-reviews-heading {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #333;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+.user-comment {
+  font-size: 0.9rem;
+  color: rgba(77, 74, 74, 0.954);
+}
+
+@media (max-width: 480px) {
+  .product-detail-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem;
+  }
+  .product-detail-image {
+    width: 100%;
+    height: 50vh;
+    padding: 0rem 3rem;
+  }
+  .related-images-container {
+    margin: 0px;
+    gap: 15px;
+  }
+  .product-detail-info {
+    margin-top: 100px;
+    width: 100%;
+    padding: 0 1.2rem;
+  }
+  .product-detail-heading {
+    font-size: 1.3rem;
+    padding: 6px 0;
+  }
+  .product-detail-description {
+    font-size: 0.7rem;
+  }
+  .product-detail-price {
+    font-size: 1rem;
+  }
+  .product-detail-stock,
+  .product-detail-reviews {
+    font-size: 0.8rem;
+    padding: 3px 0;
+  }
+  .product-detail-cart-btn {
+    width: 90vw;
+  }
+  textarea[name="review"] {
+    width: 90%;
+  }
+  textarea::placeholder {
+    font-size: 14px;
+    font-style: italic;
+  }
+  .submit-review-btn {
+    font-size: 15px;
+  }
+
+  .reviews-container {
+    margin: 0 0;
+    padding-top: 0;
+  }
+  .costomer-reviews-heading {
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+  .review-heading {
+    font-size: 1rem;
+  }
+  .reviews-container {
+    padding-left: 1.9rem;
+  }
+  .user {
+    margin: 0rem 0;
+  }
+  .use-name {
+    text-transform: capitalize;
+  }
+  .user-comment {
+    font-size: 0.7rem;
+  }
+}

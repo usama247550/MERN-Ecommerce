@@ -1,0 +1,153 @@
+.order-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 15px;
+}
+
+.order-table th,
+.order-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-table th {
+  /* background-color: #f2f2f2; */
+  /* color: #333; */
+  background: #2a2929;
+
+  color: white;
+}
+
+.order-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status.delivered {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.processing {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status.pending {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.view-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #0056b3;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.no-orders {
+  text-align: center;
+  color: #888;
+  padding: 20px 0;
+}
+
+/* =========================
+   MOBILE RESPONSIVE ORDERS
+========================= */
+
+@media (max-width: 768px) {
+  .order-container {
+    margin: 80px 10px;
+    padding: 15px;
+  }
+
+  .order-title {
+    font-size: 20px;
+  }
+
+  /* TABLE → CARD LAYOUT */
+  .order-table,
+  .order-table thead,
+  .order-table tbody,
+  .order-table th,
+  .order-table td,
+  .order-table tr {
+    display: block;
+  }
+
+  .order-table thead {
+    display: none;
+  }
+
+  .order-table tr {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .order-table td {
+    border: none;
+    padding: 6px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Labels */
+  .order-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #555;
+  }
+
+  /* Fix each column label */
+  .order-table td:nth-child(1)::before { content: "Order ID"; }
+  .order-table td:nth-child(2)::before { content: "Items"; }
+  .order-table td:nth-child(3)::before { content: "Status"; }
+  .order-table td:nth-child(4)::before { content: "Total"; }
+  .order-table td:nth-child(5)::before { content: "Action"; }
+
+  .status {
+    font-size: 12px;
+    padding: 3px 8px;
+  }
+
+  .view-btn {
+    font-size: 22px;
+  }
+
+  .no-orders {
+    font-size: 14px;
+  }
+}

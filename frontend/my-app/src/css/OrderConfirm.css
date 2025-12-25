@@ -1,0 +1,83 @@
+.order-confirm-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.shipping-details,
+.cart-items-section,
+.order-summary {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.shipping-table td {
+  padding: 6px 10px;
+}
+
+.cart-table,
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th {
+  background: rgb(223, 221, 221);
+  color: black;
+}
+
+.cart-table th,
+.cart-table td,
+.summary-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.total-row td {
+  font-size: 18px;
+  color: #222;
+}
+.status.paid {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.not-paid {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.proceed-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.proceed-btn:hover {
+  background-color: #0056b3;
+}
