@@ -1,9 +1,9 @@
-import express from "express";
-const app = express();
 import dotenv from "dotenv";
 if (process.env.NODE_ENV !== "PRODUCTION") {
   dotenv.config({ path: "backend/config/config.env" });
 }
+import express from "express";
+const app = express();
 import connectDB from "./config/db.js";
 connectDB();
 import productRouter from "./Routes/productRoutes.js";
