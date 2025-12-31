@@ -66,7 +66,7 @@ MERN ecommerce/
 
 ⚙️ **Installation & Setup**
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/MERN-ecommerce.git
+git clone https://github.com/usama247550/MERN-ecommerce.git
 cd MERN-ecommerce
 
 2️⃣ Backend Setup
