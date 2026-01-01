@@ -76,6 +76,31 @@ MERN ecommerce
 │
 └── README.md
 
+"
+## 📂 Project Structure
+
+MERN-Ecommerce/
+│── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── utils/
+│   └── config/
+│
+│── frontend/
+│   ├── components/
+│   ├── pages/
+│   ├── features/
+│   ├── redux/
+│   └── styles/
+│
+│── package.json
+│── .gitignore
+│── README.md
+
+"
+
 ⚙️ **Installation & Setup**  
 
 1️⃣ Clone the Repository
