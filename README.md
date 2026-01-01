@@ -3,8 +3,10 @@
 A full-featured MERN Stack Ecommerce Web Application with complete user authentication, product management, secure payments, and an admin dashboard.
 This project is built to simulate a real-world ecommerce system, focusing on scalability, security, and clean architecture.
 
-🚀 **Features**
-👤 **User Features**
+🚀 **Features**  
+
+👤 **User Features**  
+
 User Registration & Login (JWT Authentication)
 Forgot & Reset Password (Email-based)
 Browse Products with Search, Filter & Pagination
@@ -14,7 +16,8 @@ Secure Stripe Payment Integration
 Order History & Order Details
 User Profile Management
 
-🛠️ **Admin Features**
+🛠️ **Admin Features**  
+
 Admin Dashboard
 Create / Update / Delete Products
 Manage Users (Admin/User roles)
@@ -22,15 +25,18 @@ Manage Orders & Order Status
 Upload Product Images
 View Sales & Orders Data
 
-🧰 **Tech Stack**
-**Frontend**
+🧰 **Tech Stack**  
+
+**Frontend**  
+
 React.js
 Redux Toolkit
 React Router
 Axios
 CSS
 
-**Backend**
+**Backend**  
+
 Node.js
 Express.js
 MongoDB & Mongoose
@@ -39,13 +45,15 @@ Stripe Payment Gateway
 Nodemailer
 Cloudinary (Image Storage)
 
-**Tools & Services**
+**Tools & Services**  
+
 MongoDB Atlas
 Stripe
 Render (Deployment)
 Git & GitHub
 
-📁 **Project Structure**
+📁 **Project Structure**  
+
 MERN ecommerce/
 │
 ├── backend/
@@ -65,7 +73,8 @@ MERN ecommerce/
 │
 └── README.md
 
-⚙️ **Installation & Setup**
+⚙️ **Installation & Setup**  
+
 1️⃣ Clone the Repository
 git clone https://github.com/usama247550/MERN-ecommerce.git
 cd MERN-ecommerce
@@ -74,7 +83,8 @@ cd MERN-ecommerce
 cd backend
 npm install
 
-**Create a .env file in backend/config/ and add:**
+**Create a .env file in backend/config/ and add:**  
+
 PORT=5000
 NODE_ENV=development
 MONGO_URI=your_mongodb_connection_string
@@ -95,22 +105,26 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 
-**Run backend:**
+**Run backend:**  
+
 npm run dev
 
-3️⃣ **Frontend Setup**
+3️⃣ **Frontend Setup**  
+
 cd frontend
 cd my-app
 npm install
 npm run dev
 
 
-💳 **Stripe Test Card**
+💳 **Stripe Test Card**  
+
 Card Number: 4242 4242 4242 4242
 Expiry Date: Any future date
 CVC: Any 3 digits
 
-🌐 **Deployment**
+🌐 **Deployment**  
+
 Backend & Frontend deployed on Render
 Environment variables configured from Render Dashboard
 Live Demo: Coming Soon
@@ -118,11 +132,13 @@ Live Demo: Coming Soon
 📸 **Screenshots**
 Add screenshots after deployment
 
-👨‍💻 **Author**
+👨‍💻 **Author**  
+
 Usama
 MERN Stack Developer
 GitHub: https://github.com/usama247550
 LinkedIn: https://www.linkedin.com/in/usama-javed-112186320
 
-⭐ **Show Your Support**
+⭐ **Show Your Support**  
+
 If you like this project, give it a ⭐ on GitHub!
