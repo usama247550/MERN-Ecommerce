@@ -52,6 +52,8 @@ Stripe
 Render (Deployment)
 Git & GitHub
 
+## 📂 Project Structure
+
 <pre>
 MERN-Ecommerce/
 │── backend/
@@ -74,30 +76,6 @@ MERN-Ecommerce/
 │── README.md
 </pre>
 
-
-
-## 📂 Project Structure
-`
-MERN-Ecommerce/
-│── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── utils/
-│   └── config/
-│
-│── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── features/
-│   ├── redux/
-│   └── styles/
-│
-│── package.json
-│── .gitignore
-│── README.md
-`
 
 ⚙️ **Installation & Setup**  
 
