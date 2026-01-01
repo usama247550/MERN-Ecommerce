@@ -158,11 +158,11 @@ Live Demo: Coming Soon
 
 <table>
   <tr>
-    <td><img src="home.png"  width="250"></td>
-    <td><img src="products1.png"  width="250"></td>
-    <td><img src="products2.png"  width="250"></td>
-    <td><img src="products-info-.png"  width="250"></td>
-    <td><img src="cart.png"  width="250"></td>
+    <td><img src="home.png"  width="50%"></td>
+    <td><img src="products1.png"  width="50%"></td>
+    <td><img src="products2.png"  width="50%"></td>
+    <td><img src="products-info-.png"  width="50%"></td>
+    <td><img src="cart.png"  width="50%"></td>
     <td><img src="home.png"  width="250"></td>
     <td><img src="home.png"  width="250"></td>
     <td><img src="home.png"  width="250"></td>
