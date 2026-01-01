@@ -154,8 +154,17 @@ Environment variables configured from Render Dashboard
 
 Live Demo: Coming Soon
 
-📸 **Screenshots**
-Add screenshots after deployment
+📸 **Screenshots**  
+
+
+<p align="center">
+  <img src="screenshots/home.png" width="80%" />
+</p>
+
+<p align="center">
+  <img src="screenshots/product.png" width="80%" />
+</p>
+
 
 👨‍💻 **Author**  
 
