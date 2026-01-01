@@ -171,7 +171,7 @@ Live Demo: Coming Soon
   </tr>
     <tr>
     <td><img src="shipping details.png" width="260"></td>
-    <td><img src="order-status" width="260"></td>
+    <td><img src="order-status.png" width="260"></td>
     <td><img src="admin-dashboard.png" width="260"></td>
   </tr>
   <tr>
