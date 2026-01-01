@@ -1,4 +1,5 @@
-🛒 **MERN Ecommerce Website**
+🛒 **MERN Ecommerce Website**  
+
 A full-featured MERN Stack Ecommerce Web Application with complete user authentication, product management, secure payments, and an admin dashboard.
 This project is built to simulate a real-world ecommerce system, focusing on scalability, security, and clean architecture.
 
