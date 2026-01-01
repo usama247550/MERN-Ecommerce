@@ -156,13 +156,15 @@ Live Demo: Coming Soon
 
 📸 **Screenshots**  
 
+<div display="inline">
+  <p align="center">
+  <img src="https://github.com/usama247550/MERN-Ecommerce/blob/390c91d3bb63b9884a76d431f51aa1e883125c60/shipping%20details.png" width="40%" height="40%" />
+</p>
+<p align="center">
+  <img src="https://github.com/usama247550/MERN-Ecommerce/blob/390c91d3bb63b9884a76d431f51aa1e883125c60/shipping%20details.png" width="40%" height="40%" />
+</p>
+</div>
 
-<p align="center">
-  <img src="https://github.com/usama247550/MERN-Ecommerce/blob/390c91d3bb63b9884a76d431f51aa1e883125c60/shipping%20details.png" width="40%" height="40%" />
-</p>
-<p align="center">
-  <img src="https://github.com/usama247550/MERN-Ecommerce/blob/390c91d3bb63b9884a76d431f51aa1e883125c60/shipping%20details.png" width="40%" height="40%" />
-</p>
 
 
 👨‍💻 **Author**  
