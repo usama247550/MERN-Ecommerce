@@ -58,17 +58,13 @@ MERN ecommerce
 
 │
 ├── backend  
+├── controllers
+├── models
+├── routes
+├── middleware
+├── utils
+ config
 
-│   ├── controllers
-
-│   ├── models
-
-│   ├── routes
-│   ├── middleware
-
-│   ├── utils
-│   └── config
-│  
 
 ├── frontend
 
