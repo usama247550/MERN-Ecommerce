@@ -160,14 +160,29 @@ Live Demo: Coming Soon
 
 <table>
   <tr>
-    <td><img src="home1.png" width="260"></td>
+    <td><img src="home.png" width="260"></td>
     <td><img src="products1.png" width="260"></td>
     <td><img src="products2.png" width="260"></td>
   </tr>
   <tr>
     <td><img src="product-info.png" width="260"></td>
     <td><img src="cart.png" width="260"></td>
-    <td><img src="screenshots/6.png" width="260"></td>
+    <td><img src="product-comments.png" width="260"></td>
+  </tr>
+    <tr>
+    <td><img src="shipping-details.png" width="260"></td>
+    <td><img src="order-status" width="260"></td>
+    <td><img src="admin-dashboard.png" width="260"></td>
+  </tr>
+  <tr>
+    <td><img src="products-list.png" width="260"></td>
+    <td><img src="all users.png" width="260"></td>
+    <td><img src="customers-reviews.png" width="260"></td>
+  </tr>
+    <tr>
+    <td><img src="profile.png" width="260"></td>
+    <td><img src="login.png" width="260"></td>
+    <td><img src="password-reset-email.png" width="260"></td>
   </tr>
 </table>
 
