@@ -160,9 +160,8 @@ Live Demo: Coming Soon
 <p align="center">
   <img src="https://github.com/usama247550/MERN-Ecommerce/blob/390c91d3bb63b9884a76d431f51aa1e883125c60/shipping%20details.png" width="40%" height="40%" />
 </p>
-
 <p align="center">
-  <img src="screenshots/product.png" width="80%" />
+  <img src="https://github.com/usama247550/MERN-Ecommerce/blob/390c91d3bb63b9884a76d431f51aa1e883125c60/shipping%20details.png" width="40%" height="40%" />
 </p>
 
 
