@@ -159,6 +159,18 @@ Live Demo: Coming Soon
 <table>
   <tr>
     <td><img src="home.png"  width="50%"></td>
+    <td><img src="home.png"  width="50%"></td>
+    <td><img src="home.png"  width="50%"></td>
+  </tr>
+    <tr>
+    <td><img src="home.png"  width="50%"></td>
+    <td><img src="home.png"  width="50%"></td>
+    <td><img src="home.png"  width="50%"></td>
+  </tr>
+    <tr>
+    <td><img src="home.png"  width="50%"></td>
+    <td><img src="home.png"  width="50%"></td>
+    <td><img src="home.png"  width="50%"></td>
   </tr>
 </table>
 
