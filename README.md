@@ -120,8 +120,8 @@ Add screenshots after deployment
 👨‍💻 **Author**
 Usama
 MERN Stack Developer
-GitHub: your-github-profile
-LinkedIn: your-linkedin-profile
+GitHub: https://github.com/usama247550
+LinkedIn: https://www.linkedin.com/in/usama-javed-112186320
 
 ⭐ **Show Your Support**
 If you like this project, give it a ⭐ on GitHub!
