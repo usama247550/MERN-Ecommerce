@@ -52,29 +52,28 @@ Stripe
 Render (Deployment)
 Git & GitHub
 
-📁 **Project Structure**  
-
-MERN ecommerce  
-
+<pre>
+MERN-Ecommerce/
+│── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── utils/
+│   └── config/
 │
-├── backend  
-├── controllers
-├── models
-├── routes
-├── middleware
-├── utils
- config
-
-
-├── frontend
-
+│── frontend/
 │   ├── components/
 │   ├── pages/
 │   ├── features/
 │   ├── redux/
 │   └── styles/
 │
-└── README.md
+│── package.json
+│── .gitignore
+│── README.md
+</pre>
+
 
 
 ## 📂 Project Structure
