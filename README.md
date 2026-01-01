@@ -54,17 +54,24 @@ Git & GitHub
 
 📁 **Project Structure**  
 
-MERN ecommerce/
+MERN ecommerce  
+
 │
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── utils/
-│   └── config/
-│
-├── frontend/
+├── backend  
+
+│   ├── controllers
+
+│   ├── models
+
+│   ├── routes
+│   ├── middleware
+
+│   ├── utils
+│   └── config
+│  
+
+├── frontend
+
 │   ├── components/
 │   ├── pages/
 │   ├── features/
