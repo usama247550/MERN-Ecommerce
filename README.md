@@ -78,7 +78,7 @@ MERN ecommerce
 
 
 ## 📂 Project Structure
-"
+`
 MERN-Ecommerce/
 │── backend/
 │   ├── controllers/
@@ -98,7 +98,7 @@ MERN-Ecommerce/
 │── package.json
 │── .gitignore
 │── README.md
-"
+`
 
 ⚙️ **Installation & Setup**  
 
