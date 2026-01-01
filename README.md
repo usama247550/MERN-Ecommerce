@@ -167,10 +167,10 @@ Live Demo: Coming Soon
   <tr>
     <td><img src="product-info.png" width="260"></td>
     <td><img src="cart.png" width="260"></td>
-    <td><img src="product-comments.png" width="260"></td>
+    <td><img src="product comments.png" width="260"></td>
   </tr>
     <tr>
-    <td><img src="shipping-details.png" width="260"></td>
+    <td><img src="shipping details.png" width="260"></td>
     <td><img src="order-status" width="260"></td>
     <td><img src="admin-dashboard.png" width="260"></td>
   </tr>
