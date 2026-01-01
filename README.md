@@ -156,23 +156,21 @@ Live Demo: Coming Soon
 
 📸 **Screenshots**  
 
+## Screenshots
+
 <table>
   <tr>
-    <td><img src="home.png"  width="50%"></td>
-    <td><img src="home.png"  width="50%"></td>
-    <td><img src="home.png"  width="50%"></td>
+    <td><img src="home1.png" width="260"></td>
+    <td><img src="products1.png" width="260"></td>
+    <td><img src="products2.png" width="260"></td>
   </tr>
-    <tr>
-    <td><img src="home.png"  width="50%"></td>
-    <td><img src="home.png"  width="50%"></td>
-    <td><img src="home.png"  width="50%"></td>
-  </tr>
-    <tr>
-    <td><img src="home.png"  width="50%"></td>
-    <td><img src="home.png"  width="50%"></td>
-    <td><img src="home.png"  width="50%"></td>
+  <tr>
+    <td><img src="product-info.png" width="260"></td>
+    <td><img src="cart.png" width="260"></td>
+    <td><img src="screenshots/6.png" width="260"></td>
   </tr>
 </table>
+
 
 
 👨‍💻 **Author**  
