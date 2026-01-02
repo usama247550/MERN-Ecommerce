@@ -30,19 +30,32 @@ View Sales & Orders Data
 **Frontend**  
 
 React.js
-Redux Toolkit
-React Router
+
 Axios
+
+Redux Toolkit
+
+Protected Routes
+
+Role-Based Access Control
+
 CSS
+
 
 **Backend**  
 
 Node.js
+
 Express.js
+
 MongoDB & Mongoose
+
 JWT Authentication
+
 Stripe Payment Gateway
+
 Nodemailer
+
 Cloudinary (Image Storage)
 
 **Tools & Services**  
