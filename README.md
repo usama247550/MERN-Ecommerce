@@ -61,8 +61,11 @@ Cloudinary (Image Storage)
 **Tools & Services**  
 
 MongoDB Atlas
+
 Stripe
+
 Render (Deployment)
+
 Git & GitHub
 
 ## 📂 Project Structure
