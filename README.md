@@ -172,8 +172,6 @@ Live Demo: Coming Soon
 
 📸 **Screenshots**  
 
-## Screenshots
-
 <table>
   <tr>
     <td><img src="home.png" width="260"></td>
